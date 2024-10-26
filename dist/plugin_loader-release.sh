@@ -2,7 +2,7 @@
 
 logfile=/tmp/decky-loader-log.txt
 
-USER_DIR="/userdata/saves/steam"
+USER_DIR="/userdata/system"
 HOMEBREW_FOLDER="${USER_DIR}/homebrew"
      
 case "$1" in
