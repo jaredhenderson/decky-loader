@@ -12,7 +12,7 @@ case "$1" in
         export PRIVILEGED_PATH=${HOMEBREW_FOLDER}
         export LOG_LEVEL=INFO
         cd ${HOMEBREW_FOLDER}/services
-        PluginLoader
+        ${HOMEBREW_FOLDER}/services/PluginLoader
         ;;
     stop)
         echo "Stopping Decky Loader"
